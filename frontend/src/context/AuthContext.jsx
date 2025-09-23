@@ -4,7 +4,7 @@ export const authDataContext = createContext()
 
 function AuthContext({children}) {
 
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://onecart-backend-je6u.onrender.com"
 
     let value = {
          serverUrl
