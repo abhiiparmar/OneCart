@@ -10,7 +10,8 @@ import logo from "../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="w-full bg-gradient-to-b from-white via-blue-100 to-blue-300 text-black shadow-xl">
+    <footer className="w-full bg-gradient-to-b from-white via-blue-100 to-blue-300
+     text-black shadow-xl">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div className="flex items-center gap-3 mb-4">
@@ -18,7 +19,7 @@ function Footer() {
             <h1 className="text-2xl font-bold tracking-wide">OneCart</h1>
           </div>
           <p className="text-gray-800 text-sm leading-relaxed">
-            Shop smarter with OneCart — your ultimate destination for top deals, 
+            Shop smarter with OneCart — your ultimate destination for top deals,
             quality products, and lightning-fast delivery, all in one place!
           </p>
         </div>
@@ -31,17 +32,17 @@ function Footer() {
             <li className="hover:text-blue-700 cursor-pointer transition">Privacy Policy</li>
           </ul>
         </div>
-<div>
-  <h2 className="text-lg font-semibold mb-4">Get in Touch</h2>
-  <ul className="space-y-3 text-black text-sm">
-    <li className="flex items-center gap-2 hover:text-blue-600 transition">
-      <span className="text-xl">📞</span> +91-9876543210
-    </li>
-    <li className="flex items-center gap-2 hover:text-blue-600 transition">
-      <span className="text-xl">📧</span> contact@onecart.com
-    </li>
-  </ul>
-</div>
+        <div>
+          <h2 className="text-lg font-semibold mb-4">Get in Touch</h2>
+          <ul className="space-y-3 text-black text-sm">
+            <li className="flex items-center gap-2 hover:text-blue-600 transition">
+              <span className="text-xl">📞</span> +91-9876543210
+            </li>
+            <li className="flex items-center gap-2 hover:text-blue-600 transition">
+              <span className="text-xl">📧</span> contact@onecart.com
+            </li>
+          </ul>
+        </div>
         <div>
           <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex gap-4 text-xl">
@@ -60,7 +61,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t border-blue-400 py-4 text-center text-gray-900 text-sm bg-white/60 backdrop-blur-sm">
+      <div className="border-t border-blue-400 py-4 text-center text-gray-900 text-sm
+       bg-white/60 backdrop-blur-sm">
         © 2025 OneCart. All Rights Reserved.
       </div>
     </footer>

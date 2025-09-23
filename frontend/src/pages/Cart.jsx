@@ -45,7 +45,7 @@ function Cart() {
                 shadow-lg rounded-2xl p-4 md:p-6 flex flex-col md:flex-row items-center 
                 gap-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-[#9ff9f940]'>
                 <img className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-xl object-cover 
-                  border border-[#9ff9f940] shadow-md' 
+                  border border-[#9ff9f940] shadow-md'
                   src={productData.image1} alt={productData.name} />
                 <div className='flex flex-col items-start gap-2 w-full md:w-[40%]'>
                   <p className='text-[white] md:text-[22px] text-[18px] font-semibold'>
@@ -86,37 +86,37 @@ function Cart() {
         }
       </div>
 
-<div className='flex justify-start items-end my-20'>
-  <div className='w-full sm:w-[450px]'>
+      <div className='flex justify-start items-end my-20'>
+        <div className='w-full sm:w-[450px]'>
 
-    <CartTotal/>
+          <CartTotal />
 
-    <button
-      className='relative overflow-hidden text-[18px] cursor-pointer mt-6 ml-[30px] 
+          <button
+            className='relative overflow-hidden text-[18px] cursor-pointer mt-6 ml-[30px] 
         py-[12px] px-[50px] rounded-2xl text-white font-semibold
         border border-[#9ff9f960] shadow-md shadow-[#4d889040]
         bg-gradient-to-r from-[#4d8890]/50 to-[#0c2025]/60 backdrop-blur-sm
         transition-all duration-300 
         hover:scale-[1.03] hover:shadow-[#9ff9f950]'
-      
-      onClick={() => {
-        if(cartData.length > 0){
-          navigate("/placeorder")
-        } else {
-          console.log("Your Cart is Empty!")
-        }
-      }}
-    >
-      <span className='relative z-10 tracking-wide'>PROCEED TO CHECKOUT</span>
-      <span className='absolute top-0 left-0 w-full h-full bg-gradient-to-r 
+
+            onClick={() => {
+              if (cartData.length > 0) {
+                navigate("/placeorder")
+              } else {
+                console.log("Your Cart is Empty!")
+              }
+            }}
+          >
+            <span className='relative z-10 tracking-wide'>PROCEED TO CHECKOUT</span>
+            <span className='absolute top-0 left-0 w-full h-full bg-gradient-to-r 
         from-transparent via-white/20 to-transparent 
         translate-x-[-100%] hover:translate-x-[100%] 
         transition-transform duration-700 ease-out rounded-2xl'>
-      </span>
-    </button>
+            </span>
+          </button>
 
-  </div>
-</div>
+        </div>
+      </div>
 
 
 

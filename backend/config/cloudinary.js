@@ -21,25 +21,3 @@
  }
 
  export default uploadOnCloudinary;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
